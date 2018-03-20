@@ -23,18 +23,21 @@ div.menuitem h2 {
 
 
 
-div.menuitem p {
+div.menuitem p{
+	display: none;
 	width: 90%;
 	font-size: 14pt;
 }
 
+div.menuitem:hover p {
+	display: flex;
 
+}
 
 div.menuitem p img {
 	float: left;
 	margin: 3px 30px 3px 60px;
 }
-
 
 
 div.menuitem h2:hover {
